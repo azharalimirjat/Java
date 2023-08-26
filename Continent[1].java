@@ -1,6 +1,4 @@
-
 import java.util.ArrayList;
-
 
 class Continent{
     private String contName;
@@ -24,11 +22,7 @@ class Continent{
        
         }
     }
-
-
-
 }
-
 
 class Country{
     private String countryName;
@@ -47,7 +41,6 @@ class Country{
                 list_of_cities.add(city);
             
             }
-
         }
     
         public void display(){
@@ -57,7 +50,6 @@ class Country{
            
     }
     
-
     class City{
         private String cityName;
         private double population;
@@ -71,17 +63,10 @@ class Country{
         public double getPopulation(){
             return population;
         }
-
-
     }
-
-
-
 }
 
-
 class Demo{
-
     public static void main(String[] args) {
          String[] pakistan_cities = {"Islamabad","Karachi", "Lahore",  "Peshawar"};
          double[] pakistan_populations = { 3121230,1122, 123, 4000120};
@@ -97,14 +82,5 @@ class Demo{
          list_of_countries.add(Pakistan);
          Continent Asia = new Continent("Asia", 320000, list_of_countries );
          Asia.display();
-
-
-
     }
-
-
-
 }
-
-
-
